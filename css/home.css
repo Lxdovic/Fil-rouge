@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Bahnschrift', sans-serif;      
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../assets/images/texture.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 14vw;
+    color:#FCECF6;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 14vw);
+    padding-top: 100px;
+    background-color: #30302E;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    background-image: url('../assets/images/logo_b.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    width: 100%;
+    height: 14vw;
+    background-color: white;
+}
+
+h1 {
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: auto 0 auto 0;
+}
+
+h2 {
+    padding: 0;
+    font-size: 1em;
+    font-weight: 700;
+    margin: auto 0 auto 0;
+}
+
+h3 {
+    padding: 0;
+    font-size: .6em;
+    font-weight: 700;
+    margin: auto 0 auto 0;
+}
+
+#logo {
+    margin: auto 10px auto 0;
+    height: 70%;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+#burger {
+    margin: auto 0 auto 10px;
+    height: 40%;
+}
+
+#toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+
+#menu {
+    display: none;
+    height: calc(100vh - 14vw);
+    margin: 0;
+    padding: 0;
+    background-color: #30302E;
+    z-index: 1;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#menu li {
+    width: 100%;
+    height: 14vw;
+    color: #FCECF6;
+    border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+#menu a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 14vw;
+}
+
+.play_button {
+    display: flex;
+    color: #30302E;
+    text-decoration: none;
+    margin: auto auto 50px auto;
+    width: 75%;
+    height: 20vw;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.play_button img {
+    height: calc(100% - 4px);
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 5px;
+}
+
+.play_button h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
