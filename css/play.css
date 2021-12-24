@@ -20,7 +20,7 @@ header {
 main {
     width: 100%;
     height: calc(100vh - 14vw);
-    padding-top: 100px;
+    padding-top: 10vh;
     background-color: #30302E;
 }
 
@@ -60,8 +60,8 @@ h3 {
 }
 
 #logo {
-    margin: auto 10px auto 0;
     height: 70%;
+    margin: auto 10px auto 0;
 }
 
 #burger {
@@ -107,25 +107,16 @@ h3 {
     line-height: 14vw;
 }
 
-.play_button {
-    display: flex;
-    color: #30302E;
-    text-decoration: none;
-    margin: auto auto 50px auto;
-    width: 75%;
-    height: 20vw;
-    border-radius: 5px;
-    background-color: white;
+#chess_board {
+    width: 100vw;
+    margin: auto;
 }
 
-.play_button img {
-    height: calc(100% - 4px);
-    border: 2px solid rgb(141, 141, 141);
-    border-radius: 5px;
+.player_container {
+
 }
 
-.play_button h2 {
-    display: block;
-    width: 100%;
-    text-align: center;
+.player_container img {
+    width: 14vw;
+    border-radius: 50%;
 }

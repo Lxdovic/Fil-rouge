@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='css/play.css'>
+    <link rel='stylesheet' href='libraries/chessboard.js/css/chessboard-1.0.0.css'>
+    <link href="http://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
+
+    <title>Chess app</title>
+</head>
+
+<body>
+    <header>
+        <img id='burger' src='assets/images/burger_closed.png'>
+        <h1>Chess app</h1>
+        <img id='logo' src='assets/images/logo_w.png'>
+    </header>
+
+    <input id='toggle' type="checkbox" />
+
+    <nav id="menu">
+        <ul>
+            <li></li>
+            <a href="#">
+                <li>Profile</li>
+            </a>
+            <a href="#">
+                <li>Settings</li>
+            </a>
+            <a href="#">
+                <li>Themes</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- fake player profile -->
+        <div class='player_container'>
+            <img src='assets/images/pp.png'>
+            <span id='opponent_name'>Player 1</span><span id='opponent_elo'>(800)</span>
+        </div>
+
+        <div id='chess_board'></div>
+    </main>
+
+    <footer></footer>
+
+    <script src='libraries/jQuery.js/jquery-1.10.1.min.js'></script>
+    <script src='libraries/chess.js/chess.js'></script>
+    <script src='libraries/chessboard.js/js/chessboard-1.0.0.js'></script>
+    <script defer src='js/play.js'></script>
+</body>
+
+</html>
