@@ -1,5 +1,1 @@
-# Chess-app
 
-```
-TODO: readme
-```
