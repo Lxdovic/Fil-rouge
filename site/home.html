@@ -4,23 +4,23 @@
         <meta charset='UTF-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link rel='stylesheet' href='css/home.css'>
+        <link rel='stylesheet' href='./css/home.css'>
         <link href="http://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
         
         <title>Chess app</title>
     </head>
     <body>
         <header>
-            <img id='burger' src='assets/images/burger_closed.png'>
+            <img id='burger' src='./assets/images/burger_closed.png'>
             <h1>Chess app</h1>
-            <img id='logo' src='assets/images/logo_w.png'>
+            <img id='logo' src='./assets/images/logo_w.png'>
         </header>
 
         <input id='toggle' type="checkbox" />
 
         <nav id="menu">
             <ul>
-                <li></li>
+                <a href="#"id='navlogo'><li></li></a>
                 <a href="#"><li>Profile</li></a>
                 <a href="#"><li>Settings</li></a>
                 <a href="#"><li>Themes</li></a>
@@ -30,18 +30,35 @@
         <main>
             <a class='play_button' href='#'>
                 <h2>Play online</h2>
-                <img src='assets/images/play_image.png'>
+                <img src='./assets/images/play_image.png'>
             </a>
 
             <a class='play_button' href='#'>
                 <h2>Play with a friend</h2>
-                <img src='assets/images/play_image.png'>
+                <img src='./assets/images/play_image.png'>
             </a>
 
             <a class='play_button' href='#'>
                 <h2>Play with the computer</h2>
-                <img src='assets/images/play_image.png'>
+                <img src='./assets/images/play_image.png'>
             </a>
+
+            <div id='news'>
+                <div class='article'>
+                   <img src='assets/images/play_image.png'></img> 
+                   <h2>Puzzles</h2>
+                   <p>Train yourself by resolving Puzzles
+                       through a large selection
+                   </p>
+
+                   <button class='puzzlebtn1' ><h3>Daily puzzle</h3><p>Resolve daily puzzle</p></button>
+                   <!-- <button><h3>Puzzles</h3><p>Resolve puzzles</p></button> -->
+                </div>
+            </div>
+
+            <div id='history'>
+                
+            </div>
         </main>
         
         <footer></footer>
