@@ -133,7 +133,294 @@
     }
 }
 
-@media (min-width: 801px) {
+
+@media (min-width: 801px) and (max-width: 1400px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        font-family: 'Bahnschrift', sans-serif;      
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        height: calc(100vh - 50px);
+        padding-top: 10px;
+        background-color: #30302E;
+    }
+
+    footer {
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        background-image: url('../assets/images/logo_b.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: white;
+    }
+
+    h1 {
+        padding: 0;
+        font-size: 1.6em;
+        font-weight: 700;
+        margin: auto 0 auto 0;
+    }
+
+    h2 {
+        padding: 0;
+        font-size: 1.4em;
+        font-weight: 700;
+        margin: auto 0 auto 0;
+    }
+
+    h3 {
+        padding: 0;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: auto 0 auto 0;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        height: 50px;
+        margin: 0;
+        padding: 0;
+        background: url('../assets/images/texture.png');
+        z-index: 1;
+    }
+
+    #menu ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: calc(100% - 100px);
+    }
+
+    #navlogo {
+        margin-left: 15px;
+        background-image: url('../assets/images/logo_w.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #menu li {
+        height: 100%;
+        color: #FCECF6;
+    }
+
+    #menu a {
+        display: inline-block;
+        width: 100px;
+        line-height: 40px;
+        margin-top: 5px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .play_button {
+        display: flex;
+        color: #30302E;
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 150px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .play_button img {
+        display: none;
+    }
+
+    .play_button h2 {
+        display: block;
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #news {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        position: absolute;
+        top: 110px;
+        left: 220px;
+        width: calc(100vw - 520px);
+        height: calc(100vh - 200px);
+        background-color: rgb(27, 27, 27);
+        border-radius: 5px;
+    }
+
+    #news .article {
+        position: relative;
+        display: flex;
+        padding: 20px;
+        height: 500px;
+        color: white;
+    }
+
+    #puzzle-img {
+        border-radius: 3px;
+        width: 90%;
+        height: 40%;
+        max-width: 200px;
+    }
+    
+    #puzzle-title {
+        position: absolute;
+        left: 20px;
+        top: 230px;
+        color: white;
+        border-radius: 3px;
+        width: 60%;
+    }
+
+    #puzzle-p {
+        position: absolute;
+        left: 20px;
+        top: 250px;
+        color: white;
+        border-radius: 3px;
+        width: 100%;
+    }
+
+    #news .article .puzzlebtn1 {
+        position: absolute;
+        left: 20px;
+        top: 390px;
+        border-radius: 3px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #10515A;
+        border: none;
+        color: white;
+    }
+
+    #news .article .puzzlebtn2 {
+        position: absolute;
+        left: 20px;
+        top: 450px;
+        border-radius: 3px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #10515A;
+        border: none;
+        color: white;
+    }
+
+    #history {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        position: absolute;
+        top: 110px;
+        left: calc(420px + 100vw - 700px);
+        width: 250px;
+        height: calc(100vh - 200px);
+        border-radius: 5px;
+        background-color: rgb(65, 64, 64);
+    }
+
+    #article-title {
+        position: absolute;
+    }
+
+    #article-p {
+        position: absolute;
+        top: 40px;
+        width: 90%
+    }
+
+    .articlebtn1 {
+        display: flex;
+        position: absolute;
+        top: 450px;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #10515A;
+        border: none;
+        color: white;
+    }
+
+    .article:nth-child(2n+0) {
+        color: white;
+        background-color: rgb(41, 41, 41);
+        height: 200px;
+    }
+
+    .game {
+        position: relative;
+        display: flex;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 50px;
+        background-color: rgb(38, 38, 39);
+        color: white;
+    }
+
+    .time {
+        position: absolute;
+        top: 12px;
+        left: 5px;
+    }
+
+    .win {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: #36B18A;
+    }
+
+    .lose {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: #E83943;
+    }
+
+    .player {
+        position: absolute;
+        top: 12px;
+        left: 50px;
+    }
+
+    .type {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+}
+
+@media (min-width: 1401px) {
 
     body {
         padding: 0;
@@ -259,6 +546,7 @@
     }
 
     #news {
+        overflow-x: hidden;
         overflow-y: scroll;
         position: absolute;
         top: 110px;
@@ -273,37 +561,52 @@
         position: relative;
         display: flex;
         padding: 20px;
+        height: 200px;
+        color: white;
     }
 
-    #news .article img {
+    #puzzle-img {
         border-radius: 3px;
-        width: 60%;
+        height: 90%;
     }
     
-    #news .article h2 {
+    #puzzle-title {
         position: absolute;
-        left: 75%;
+        left: 50%;
         color: white;
         border-radius: 3px;
         width: 60%;
     }
 
-    #news .article p {
+    #puzzle-p {
         display: flex;
         position: absolute;
         top: 30px;
-        left: 60%;
+        left: 230px;
         width: 40%;
         color: white;
         border-radius: 3px;
     }
 
-    #news .article button {
+    #news .article .puzzlebtn1 {
         display: flex;
         position: absolute;
         top: 150px;
-        left: 60%;
-        width: 30%;
+        left: 230px;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #10515A;
+        border: none;
+        color: white;
+    }
+
+    #news .article .puzzlebtn2 {
+        display: flex;
+        position: absolute;
+        top: 150px;
+        left: 470px;
+        width: 200px;
         height: 50px;
         border-radius: 5px;
         background-color: #10515A;
@@ -312,13 +615,92 @@
     }
 
     #history {
+        overflow-x: hidden;
+        overflow-y: scroll;
         position: absolute;
         top: 110px;
         left: calc(420px + 100vw - 700px);
-        display: flex;
         width: 250px;
         height: calc(100vh - 200px);
         border-radius: 5px;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(65, 64, 64);
+    }
+
+    #article-title {
+        position: absolute;
+    }
+
+    #article-p {
+        position: absolute;
+        top: 40px;
+        width: 90%
+    }
+
+    .articlebtn1 {
+        display: flex;
+        position: absolute;
+        top: 150px;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #10515A;
+        border: none;
+        color: white;
+    }
+
+    .article:nth-child(2n+0) {
+        color: white;
+        background-color: rgb(41, 41, 41);
+        height: 200px;
+    }
+
+    .game {
+        position: relative;
+        display: flex;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        height: 50px;
+        background-color: rgb(38, 38, 39);
+        color: white;
+    }
+
+    .time {
+        position: absolute;
+        top: 12px;
+        left: 5px;
+    }
+
+    .win {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: #36B18A;
+    }
+
+    .lose {
+        position: absolute;
+        top: 12px;
+        left: 30px;
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: #E83943;
+    }
+
+    .player {
+        position: absolute;
+        top: 12px;
+        left: 50px;
+    }
+
+    .type {
+        position: absolute;
+        top: 12px;
+        right: 12px;
     }
 }
