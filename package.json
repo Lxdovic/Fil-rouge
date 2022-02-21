@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@vue/cli": "^4.5.15"
+    "@vue/cli": "^4.5.15",
+    "router": "^1.3.6"
   }
 }

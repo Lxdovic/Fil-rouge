@@ -1,0 +1,17 @@
+[
+    {"result": 1, "time": 1, "mmr": 11, "type": "Rapid", "opponent": "Player1" },
+    {"result": 0, "time": 2, "mmr": -9, "type": "Rapid", "opponent": "Player2" },
+    {"result": 0, "time": 2, "mmr": -8, "type": "Rapid", "opponent": "Player3" },
+    {"result": 1, "time": 2, "mmr": 10, "type": "Rapid", "opponent": "Player4" },
+    {"result": 1, "time": 3, "mmr": 8, "type": "Rapid", "opponent": "Player5" },
+    {"result": 0, "time": 3, "mmr": -12, "type": "Rapid", "opponent": "Player6" },
+    {"result": 1, "time": 3, "mmr": 11, "type": "Rapid", "opponent": "Player7" },
+    {"result": 0, "time": 4, "mmr": -11, "type": "Rapid", "opponent": "Player8" },
+    {"result": 1, "time": 13, "mmr": 12, "type": "Rapid", "opponent": "Player9" },
+    {"result": 1, "time": 13, "mmr": 10, "type": "Rapid", "opponent": "Player10" },
+    {"result": 0, "time": 13, "mmr": -8, "type": "Rapid", "opponent": "Player11" },
+    {"result": 0, "time": 14, "mmr": -7, "type": "Rapid", "opponent": "Player12" },
+    {"result": 0, "time": 14, "mmr": -11, "type": "Rapid", "opponent": "Player13" },
+    {"result": 1, "time": 23, "mmr": 10, "type": "Bullet", "opponent": "Player14" },
+    {"result": 1, "time": 23, "mmr": 10, "type": "Bullet", "opponent": "Player15" }
+]
