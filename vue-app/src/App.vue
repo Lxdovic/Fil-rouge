@@ -14,14 +14,15 @@
     },
 
     mounted() {
-      let ChessLib = document.createElement('script')
-      ChessLib.setAttribute('src', 'src/assets/Chessboard.js-main/libraries/chess.js')
-      document.head.appendChild(ChessLib)
-
-      let ChessboardLib = document.createElement('script')
-      ChessboardLib.setAttribute('src', 'src/assets/Chessboard.js-main/chessboard.js')
-      document.head.appendChild(ChessboardLib)
+      addScript('https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+      addScript('src/chess/js/chessboard-1.0.0.js')
     },
+  }
+
+  function addScript(src) {
+    var script = document.createElement('script')
+    script.setAttribute('src', src)
+    document.head.appendChild(script)
   }
 </script>
 
@@ -37,8 +38,6 @@
 <style>
   * {
     overflow-x: hidden;
-    overflow-y: hidden;
-    /* transition: all .2 ease-in-out; */
   }
 
   #app {
@@ -50,7 +49,8 @@
   }
 
   ::-webkit-scrollbar {
-    width: 9px;
+    width: 4px;
+    height: 4px;
   }
 
   ::-webkit-scrollbar-track {
@@ -59,7 +59,8 @@
 
   ::-webkit-scrollbar-thumb {
     background: #888;
-    width: 7px;
+    width: 4px;
+    height: 4px;
     border-radius: 10px;
   }
 
