@@ -9,9 +9,9 @@
 </script>
 
 <template>
-  <div class='flex justify-center lg:flex-row flex-col gap-16'>
-    <div class='flex flex-col px-6'>
-      <div class='m-auto md:w-[63vh] w-screen h-20 bg-stone-100 flex py-2'>
+  <div class='flex justify-center lg:flex-row flex-col gap-0 lg:gap-16 flex-wrap'>
+    <div class='flex flex-col'>
+      <div class='m-auto md:w-[70vh] w-screen h-20 bg-stone-100 flex py-2'>
         <img class='rounded-full' src='../assets/Player1_pfp.jpg'>
         <div class='flex flex-col justify-center text-left'>
           <div class='flex flex-row'>
@@ -22,9 +22,9 @@
         </div>
       </div>
 
-      <div class='md:w-[63vh] w-screen m-auto bg-stone-100' id='myBoard'></div>
+      <div class='md:w-[70vh] w-screen m-auto bg-stone-100' id='myBoard'></div>
       
-      <div class='m-auto md:w-[63vh] w-screen h-20 bg-stone-100 flex py-2 order-1'>
+      <div class='m-auto md:w-[70vh] w-screen h-20 bg-stone-100 flex py-2 order-1'>
         <img class='rounded-full' src='../assets/me.png'>
         <div class='flex flex-col justify-center text-left'>
           <div class='flex flex-row'>
@@ -55,3 +55,10 @@
 </template>
 
 <style scoped></style>
+
+
+1. A new program never works first time.
+2. I always have bugs in my code.
+3. I like to code little by little and fix each bug I encounter one by one to avoid having too many.
+4. JavaScript is my favorite language, over english.
+5. 
